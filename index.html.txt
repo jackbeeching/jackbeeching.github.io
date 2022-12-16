@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jack Beeching</title>
+  </head>
+  <body>
+    <h1>student journalist</h1>
+    <p>portfolio</p>
+  </body>
+</html>
