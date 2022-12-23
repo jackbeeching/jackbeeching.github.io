@@ -1,51 +1,300 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+    <style type="text/css">
 
-  
+        a {
+            color: #1772d0;
+            text-decoration: none;
+        }
 
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+        a:focus,
+        a:hover {
+            color: #f09228;
+            text-decoration: none;
+        }
+
+        body,
+        td,
+        th,
+        tr,
+        p,
+        a {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 14px
+        }
+
+        strong {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        heading {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 22px;
+        }
+
+        papertitle {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 700
+        }
+
+        name {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            font-size: 32px;
+        }
+
+        .one {
+            width: 160px;
+            height: 160px;
+            position: relative;
+        }
+
+        .two {
+            width: 160px;
+            height: 160px;
+            position: absolute;
+            transition: opacity .2s ease-in-out;
+            -moz-transition: opacity .2s ease-in-out;
+            -webkit-transition: opacity .2s ease-in-out;
+        }
+
+        .fade {
+            transition: opacity .2s ease-in-out;
+            -moz-transition: opacity .2s ease-in-out;
+            -webkit-transition: opacity .2s ease-in-out;
+        }
+
+        span.highlight {
+            background-color: #ffffd0;
+        }
+
+        .new {
+            background-color: #cc0000;
+            color: white;
+            border-radius: 5px;
+            padding: 1px;
+            font-size: 14px;
+            margin: 0 5px;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="seal_icon.png">
     <title>Jack Beeching</title>
-  </head>
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
 
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>Jack Beeching</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#publications" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-    </nav>
-    
+</head>
 
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          I'm an undergraduate at the LSE, where I edit the student newspaper. This a space for my projects.
-        </p>
-      </div>
+<body>
+
+
+
+
+    <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>
+                <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+                    <tr>
+                        <td width="75%" valign="middle">
+                            <p align="center">
+                                <name>Jack Beeching</name>
+                            </p>
+
+                            <!-- ######## ABSTRACT #########-->
+
+                            <p> I am a penultimate-year student at the LSE and Editor of The Beaver Newspaper <a href="https://thebeaverlse.co.uk/">The Beaver Newspaper</a>.
+                                This is a space for my projects.
+                            </p>
+                        <td width="1%">
+                            <img src="./images/photo.png">
+                        </td>
+            </td>
+
+            <!-- ######## INFO  #########-->
+
+            <p align=center>
+                <a href="mailto:jbbeeching<at>gmail<dot>com">Email</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/jack-beeching-42933a23b/"> LinkedIn </a> &nbsp/&nbsp
+                <a href="https://twitter.com/jackkbeeching">Twitter</a>
+            </p>
+        </tr>
+    </table>
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
+        <div class="my-auto">
+            <h2 class="mb-1">Publications</h2>
+            <a onclick="window.open(this.href); return false;" href="./papers/gdrl.html"
+                onkeypress="window.open(this.href); return false;">
+                <papertitle>UCU strikes to hit universities this September</papertitle>
+            </a><br>
+            A news report on industrial action at LSE.
+            <a onclick="window.open(this.href); return false;" href="https://thebeaverlse.co.uk/ucu-strikes-to-hit-universities-this-november/"
+                onkeypress="window.open(this.href); return false;">Webpage</a>
+            <span class="style_2"> | </span>
+            
+
+            <!-- <span class="style_2"> | </span> -->
+            <!-- <a onclick="window.open(this.href); return false;" href="" <!-- <!--
+                            onkeypress="window.open(this.href); return false;">Talk</a> -->
+            <!-- <span class="style_2"> | </span>
+                        <a onclick="window.open(this.href); return false;"
+                            href="https://www.cs.cmu.edu/~dchaplot/talks/cvpr20-semantic-exploration.pdf"
+                            onkeypress="window.open(this.href); return false;">Slides</a> -->
+
+            <br>
+            <br>
+            <a onclick="window.open(this.href); return false;" href="./papers/smartgraph.html"
+                onkeypress="window.open(this.href); return false;">
+                <papertitle>Graph augmented Deep Reinforcement Learning in the GameRLand3D environment
+                </papertitle>
+            </a><br>
+            <strong>Edward Beeching</strong>, Maxim Peter, Philippe Marcotte, Jilles Debangoye, Olivier Simonin, Joshua
+            Romoff, Christian Wolf. (2021) <br>
+
+            <em>AAAI-22 Workshop on Reinforcement Learning in Games</em><br>
+
+            <a onclick="window.open(this.href); return false;" href="https://arxiv.org/abs/2112.11731"
+                onkeypress="window.open(this.href); return false;">PDF</a>
+            <span class="style_2"> | </span>
+            <a onclick="window.open(this.href); return false;" href="papers/smartgraph.html"
+                onkeypress="window.open(this.href); return false;">Webpage</a>
+            <span class="style_2"> | </span>
+            <a onclick="window.open(this.href); return false;" href="https://github.com/ubisoft/SmartNavMapGenerator"
+                onkeypress="window.open(this.href); return false;">Code</a>
+
+            <!-- <span class="style_2"> | </span> -->
+            <!-- <a onclick="window.open(this.href); return false;" href="" <!-- <!--
+                            onkeypress="window.open(this.href); return false;">Talk</a> -->
+            <!-- <span class="style_2"> | </span>
+                        <a onclick="window.open(this.href); return false;"
+                            href="https://www.cs.cmu.edu/~dchaplot/talks/cvpr20-semantic-exploration.pdf"
+                            onkeypress="window.open(this.href); return false;">Slides</a> -->
+
+            <br>
+            <br>
+
+            <a onclick="window.open(this.href); return false;" href="./papers/learning_to_plan.html"
+                onkeypress="window.open(this.href); return false;">
+                <papertitle>Learning to plan in uncertain topological maps</papertitle>
+            </a><br>
+            <strong>Edward Beeching</strong>, Jilles Dibangoye, Olivier Simonin, Christian Wolf. (2020) <br>
+
+            <em>ECCV 2020 <strong>(spotlight)</strong></em><br>
+
+            <a onclick="window.open(this.href); return false;" href="https://arxiv.org/abs/2007.05270"
+                onkeypress="window.open(this.href); return false;">PDF</a>
+            <span class="style_2"> | </span>
+            <a onclick="window.open(this.href); return false;" href="papers/learning_to_plan.html"
+                onkeypress="window.open(this.href); return false;">Webpage</a>
+            <span class="style_2"> | </span>
+            <a onclick="window.open(this.href); return false;" href="https://github.com/edbeeching/learning_to_plan"
+                onkeypress="window.open(this.href); return false;">Code</a>
+
+            <!-- <span class="style_2"> | </span> -->
+            <!-- <a onclick="window.open(this.href); return false;" href="" <!-- <!--
+                            onkeypress="window.open(this.href); return false;">Talk</a> -->
+            <!-- <span class="style_2"> | </span>
+                        <a onclick="window.open(this.href); return false;"
+                            href="https://www.cs.cmu.edu/~dchaplot/talks/cvpr20-semantic-exploration.pdf"
+                            onkeypress="window.open(this.href); return false;">Slides</a> -->
+
+            <br>
+            <br>
+
+            <a onclick="window.open(this.href); return false;" href="./papers/egomap.html"
+                onkeypress="window.open(this.href); return false;">
+                <papertitle>EgoMap: Projective mapping and structured egocentric memory for Deep RL
+                </papertitle>
+            </a><br>
+            <strong>Edward Beeching</strong>, Jilles Dibangoye, Olivier Simonin, Christian Wolf. (2020) <br>
+            <em>ECML-PKDD 2020</em><br>
+            <a onclick="window.open(this.href); return false;" href="https://arxiv.org/abs/2002.02286"
+                onkeypress="window.open(this.href); return false;">PDF</a>
+            <span class="style_2"> | </span>
+            <a onclick="window.open(this.href); return false;" href="papers/egomap.html"
+                onkeypress="window.open(this.href); return false;">Webpage</a>
+            <span class="style_2"> | </span>
+            <a onclick="window.open(this.href); return false;" href="https://github.com/edbeeching/ego_map"
+                onkeypress="window.open(this.href); return false;">Code</a>
+            <!-- <a onclick="window.open(this.href); return false;" href="" <!-- <!--
+                            onkeypress="window.open(this.href); return false;">Talk</a> -->
+            <!-- <span class="style_2"> | </span>
+                        <a onclick="window.open(this.href); return false;"
+                            href="https://www.cs.cmu.edu/~dchaplot/talks/cvpr20-semantic-exploration.pdf"
+                            onkeypress="window.open(this.href); return false;">Slides</a> -->
+
+            <br>
+            <br>
+        </div>
+
+        <a onclick="window.open(this.href); return false;" href="./papers/3d_control_deep_rl.html"
+            onkeypress="window.open(this.href); return false;">
+            <papertitle>Deep Reinforcement Learning on a Budget: 3D Control and Reasoning Without a Supercomputer
+            </papertitle>
+        </a><br>
+        <strong>Edward Beeching</strong>, Jilles Dibangoye, Olivier Simonin, Christian Wolf. (2020) <br>
+        <em>ICPR 2020</em><br>
+        <a onclick="window.open(this.href); return false;" href="https://arxiv.org/abs/1904.01806"
+            onkeypress="window.open(this.href); return false;">PDF</a>
+        <span class="style_2"> | </span>
+        <a onclick="window.open(this.href); return false;" href="papers/3d_control_deep_rl"
+            onkeypress="window.open(this.href); return false;">Webpage</a>
+        <span class="style_2"> | </span>
+        <a onclick="window.open(this.href); return false;" href="https://github.com/edbeeching/3d_control_deep_rl"
+            onkeypress="window.open(this.href); return false;">Code</a>
+        <!-- <a onclick="window.open(this.href); return false;" href="" <!-- <!--
+                            onkeypress="window.open(this.href); return false;">Talk</a> -->
+        <!-- <span class="style_2"> | </span>
+                        <a onclick="window.open(this.href); return false;"
+                            href="https://www.cs.cmu.edu/~dchaplot/talks/cvpr20-semantic-exploration.pdf"
+                            onkeypress="window.open(this.href); return false;">Slides</a> -->
+
+        <br>
+        <br>
+
+
+
+        </div>
+
+
     </section>
 
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
+        <div class="my-auto">
+            <h2 class="mb-1">PhD Thesis</h2>
+            <a onclick="window.open(this.href); return false;" href="./docs/Edward_Beeching_PhD_manuscript_20220428.pdf"
+                onkeypress="window.open(this.href); return false;">Large-scale Learning of Autonomous Agent Behavior
+                with Structured Deep Reinforment Learning </a>
+    </section>
 
-    <!-- Publications section -->
-    <section class="publications" id="publications">
-      <h2 class="publications-title">Some of my Publications</h2>
-      <div class="publications-container">
-        <div class="publications-container publications-card">
-          <h3 class="publications-title">UCU strikes to hit universities this November</h3>
-          <a href="https://thebeaverlse.co.uk/ucu-strikes-to-hit-universities-this-november/" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="publications-container publications-card">
+    <h2>Agent Examples</h2>
+    <p>Agent behaviors learned with the Godot RL Agents Library</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g1MlZSFqIj4" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p>Image-goal based navigation in a 3D scan of our laboratory. The map is not provided to the agent.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oUVpJdCX2x8" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Example of a Deep Reinforcement Learning Agent trained to collect a sequence of objects with the Advantage Actor
+        Critic Algorithm. The map is not provided to the agent.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9RMMPDcwuHw" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+    </td>
+    </tr>
+    </table>
+
+</body>
+
+</html>
